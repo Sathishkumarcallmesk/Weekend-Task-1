@@ -1,0 +1,112 @@
+#bg{
+    background-color: rgb(47,61,70) ;
+    height: 110px;
+    width: 100%;
+  
+}
+
+
+table{
+    position: relative;
+    bottom: 25px;
+    
+}
+
+#ptag
+{
+    text-align: center;
+  
+
+}
+
+p{
+    font-family: sans-serif; 
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 350%;
+}
+
+body{
+    background-color: rgb(208, 209, 195);
+}
+
+
+
+#parent
+{
+   
+    padding: 0px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px  ;
+    grid-template-rows: 200px 200px 200px ;
+    row-gap: 10px;
+    column-gap: 30px;
+justify-content: center;
+
+}
+
+
+
+
+img
+{
+    width: 90px;
+    margin: auto;
+    padding: 45px;
+}
+
+#parent > div{
+   
+    background-color:rgb(45, 50, 50) ;
+    border-radius: 10px;
+  
+    margin: 20px;
+ 
+
+}
+
+#div3,#div4,#div5
+{
+position: relative;
+bottom: 40px;
+}
+
+#div1{
+    grid-column: 2/5;
+    height: 50px;
+    width:100px;
+}
+
+#div2
+{
+    grid-row: 1/4;
+  
+
+}
+
+
+
+#div6
+{
+    grid-column: 2/5;
+} 
+
+
+input{
+    
+    font-size: 30px;
+    
+    background-color:rgb(45, 50, 50) ;
+    color:white;
+    border-radius: 10px;
+    grid-column: 2/5;
+    height: 65px;
+    width:800px ;
+    position: relative;
+    top: 20%;
+    left:100px;
+    text-align: left;
+    padding-left: 30px;
+}
